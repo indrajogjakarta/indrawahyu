@@ -1,0 +1,28 @@
+<link rel="stylesheet" type="text/css"  href="Pesan.css">
+
+<form action="/order" method="post">
+    <label for="name">Nama:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="phone">Nomor Telepon:</label><br>
+    <input type="text" id="phone" name="phone"><br>
+    <label for="menu">Daftar Menu:</label><br>
+    <select id="menu" name="menu">
+      <option value="pizza">Pizza</option>
+      <option value="pasta">Pasta</option>
+      <option value="burger">Burger</option>
+      <option value="pizza">.</option>
+      <option value="pasta">Pasta</option>
+      <option value="burger">Burger</option>
+    </select><br>
+    <label for="quantity">Jumlah:</label><br>
+    <input type="number" id="quantity" name="quantity"><br>
+    <label for="delivery">Jenis Pembayaran:</label><br>
+    <input type="radio" id="delivery" name="delivery" value="delivery">Transfer<p> 
+        <a href="Bayar.html"><buton>Pembayaran Via</buton></a>
+      </p><br>
+    <input type="radio" id="delivery" name="delivery" value="delivery">Cash<br>
+    <button type="submit">Pesan</button>
+  </form> 
+  
